@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+.title-1{
+    font-size: 42px;
+    color: #3745BD;
+    font-family: 'Inter', sans-serif;
+    }
+    header{
+        width: 429px;
+    }
+    .paragraph-1{
+        font-size: 20px;
+        line-height: 28px;
+        font-family: 'Inter', sans-serif;
+    }
