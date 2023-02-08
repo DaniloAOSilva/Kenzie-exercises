@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários_inputs</title>
+</head>
+<body>
+   <div>
+        <form>
+            <button type="submit">enviar</button>
+            <input type="text" maxlength="10" placeholder="digite seu nome aqui..."/>
+        </form>
+    </div>
+    
+
+    <div>
+        <form>
+      
+            <label for="nome">nome</label>
+            <input type="text" id="nome" name="nome" placeholder="digite seu nome aqui" required="true" >
+            <label for="senha">senha</label>
+            <input type="password" id="senha" name="senha" placeholder="digite sua senha aqui" required="true">
+            <button type="submit">enviar</button>
+               
+        </form>
+    </div>
+
+<!--formulários input radio exemplos práticos-->
+
+    <div>
+        <form>
+            <p>qual método de contato de preferência?</p>
+            <label for="email">email</label>
+            <input id="email" type="radio" required name="método de contato" value="email" >
+            <label for="telefone">telefone</label>
+            <input id="telefone" type="radio" required name="método de contato" value="telefone" >
+            <label for="watssapp">watssapp</label>
+            <input id="watssapp" type="radio" required name="método de contato" value="watssapp" >
+            <button type="submit" >enviar</button>
+        </form>
+    </div>
+    
+<!--tag select-->    
+    <div>
+        <form >
+            <label for="plano">plano</label>
+            <select name="plano"required="true" id="plano" >
+                <option value="">Escolher plano</option>
+                <option value="free">free</option>                
+                <option value="premium">premium</option>
+                <option value="pro">pro</option>
+            </select>
+                <button type="submit" >cadastrar</button>
+
+        </form>
+    </div>
+
+    <!--formulários textarea
+    colls> coluna rows> linhas -->
+    
+    <label for="mensagem">mensagem</label>
+    <textarea placeholder="digite sua mensagem aqui" name="mensagem" id="mensagem" cols="20" rows="5" required ></textarea>
+    <button type="submit" >enviar mensagem</button>
+</body>
+</html>
