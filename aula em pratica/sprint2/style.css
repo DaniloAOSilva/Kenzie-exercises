@@ -2,13 +2,22 @@ h1{font-size: 50px;
     color: blue;
     border-bottom: 1px solid black ;
 }
-.box.red{
+.box-red{
     background-color: red;
 }
 
-.box.blue{
+.box-blue{
     background-color: blue;
 }
 p{
     font-size: 35px ;
+}
+.box{
+    height: 150px;
+    width: 150px;
+}
+#sessao-unica{font-size: 56px;}
+
+body{
+    background-color: rgb(156, 156, 203);
 }
